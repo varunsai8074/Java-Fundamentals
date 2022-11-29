@@ -1,5 +1,5 @@
 import java.util.*;
-public class InputOutput1
+public class IntegerInput
 {
     public static void main(String args[])
     {
