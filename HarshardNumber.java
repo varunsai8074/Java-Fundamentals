@@ -1,5 +1,5 @@
 import java.util.*;
-public class Harshard
+public class HarshardNumber
 {
     public static void main(String[] args)
     {
