@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class Myprogram
+{
+    public static void factorial(int n)
+    { int fact=1,x=1;
+     
+    while(fact<n)
+    {
+       x=x+1;
+       fact=fact*x;
+    }
+    if(fact==n)
+    {
+        System.out.println("yes");
+    }
+    else
+    {
+      System.out.println("no"); 
+    }
+     
+    }
+}
+public class Factorial
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        Myprogram m1=new Myprogram();
+        int n=sc.nextInt();
+        m1.factorial(n);
+
+        
+    }
+}
